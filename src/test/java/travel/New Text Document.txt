@@ -1,0 +1,137 @@
+AUTOMATION TEST ENGINEER
+
+[Your Full Name]
+📍 Location | 📞 Phone | 📧 Email | 🔗 LinkedIn | GitHub
+
+PROFESSIONAL SUMMARY
+
+Automation Test Engineer with 2.2 years of experience at Hexaware in Manual and Automation Testing of social media applications. Hands-on experience with Selenium WebDriver using Java, Cucumber + TestNG, and Hybrid / POM-based automation frameworks. Strong in API testing (Postman), Accessibility testing, and defect management using Jira. Recognized with multiple performance awards. ISTQB Certified and actively seeking Automation-focused roles.
+
+TECHNICAL SKILLS
+
+Automation & Frameworks
+
+Selenium WebDriver
+
+Cucumber (BDD)
+
+TestNG
+
+Page Object Model (POM)
+
+Hybrid Automation Framework
+
+Programming
+
+Java
+
+Testing Types
+
+Manual Testing | Automation Testing
+
+API Testing | Accessibility Testing | VR Testing
+
+Tools
+
+Jira | Postman | In-house Testing Tools
+
+Database
+
+SQL (Basic Queries, Data Validation)
+
+Methodology
+
+Agile / Scrum
+
+PROFESSIONAL EXPERIENCE
+Manual / Automation Test Engineer
+
+Hexaware Technologies | [Month/Year – Present]
+Experience: 2.2 Years
+
+Performed end-to-end testing of social media applications, including functional, regression, smoke, and sanity testing.
+
+Designed and executed manual test cases and transitioned key regression scenarios to automation using Selenium with Java.
+
+Worked on Cucumber BDD framework integrated with TestNG, following Page Object Model (POM) structure.
+
+Contributed to a Hybrid Automation Framework combining Selenium, Cucumber, TestNG, and reusable utilities.
+
+Automated critical workflows to improve test coverage and execution efficiency.
+
+Conducted API testing using Postman, validating request/response, headers, status codes, and backend data.
+
+Performed Accessibility testing to ensure usability compliance.
+
+Used Jira for defect logging, tracking, and test reporting.
+
+Actively handled client meetings, requirement discussions, and daily status updates.
+
+Acted as Team Lead, managing task allocation, mentoring team members, and ensuring on-time delivery.
+
+Collaborated closely with developers and stakeholders to ensure high-quality releases.
+
+PROJECT
+
+Domain: Social Media Application Testing
+
+Tested user interactions, UI flows, content behavior, and feature validations.
+
+Ensured application stability across multiple scenarios and user journeys.
+
+ACHIEVEMENTS
+
+🏆 Dashing Debutant Award – Exceptional performance and adaptability
+
+🏆 Rockstar of the Month Award – Outstanding contribution and leadership
+
+CERTIFICATION
+
+✅ ISTQB Certified Tester – Foundation Level
+
+🔑 Top ATS Keywords (Already Embedded)
+
+Automation Testing, Selenium Java, Cucumber BDD, TestNG, POM, Hybrid Framework, API Testing, Postman, Jira, Manual Testing, Agile, SQL, Accessibility Testing, Regression Testing, Social Media Application Testing
+
+📂 GitHub-Ready Automation Project Description
+
+You can paste this directly into your GitHub repository README.md:
+
+Automation Testing Framework – Selenium Java (Cucumber + TestNG)
+Project Overview
+
+This project is a Hybrid Automation Framework developed using Selenium WebDriver with Java, following BDD approach using Cucumber and TestNG for test execution. The framework is designed to automate regression test cases for a social media web application, ensuring reliability, scalability, and maintainability.
+
+Framework Architecture
+
+Page Object Model (POM) for better code reusability and maintainability
+
+Cucumber BDD for readable feature files and business-friendly test scenarios
+
+TestNG for test execution, grouping, and reporting
+
+Hybrid Framework combining data-driven and BDD approaches
+
+Tools & Technologies
+
+Java
+
+Selenium WebDriver
+
+Cucumber
+
+TestNG
+
+Maven
+
+Postman (for API validation)
+
+Key Responsibilities
+
+Automated critical functional and regression test cases
+
+Created feature files, step definitions, and page classes
+
+Validated UI workflows and user interactions
+
+Executed automated test suites and analyzed results
