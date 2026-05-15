@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart Suite]">
+  <parameter name="travelDate" value="14"/>
+  <parameter name="monthYear" value="July 2026"/>
+  <parameter name="searchItem" value="shoes"/>
+  <parameter name="url" value="https://www.flipkart.com"/>
+  <test thread-count="5" name="Regression Tests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="travel.FlightTest">
+        <methods>
+          <include name="clickSearch"/>
+          <include name="selectSource"/>
+          <include name="selectDate"/>
+          <include name="scrollFlights"/>
+          <include name="waitFlights"/>
+          <include name="selectDestination"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- travel.FlightTest -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Flipkart Suite] -->

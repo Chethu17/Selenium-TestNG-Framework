@@ -1,0 +1,38 @@
+
+<suite name="Flipkart Suite">
+
+    <parameter name="url" value="https://www.flipkart.com"/>
+    <parameter name="searchItem" value="shoes"/>
+    <parameter name="day" value="14"/>
+    <parameter name="monthYear" value="July 2026"/>
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="flipkart.FashionTest"/>
+            <class name="flipkart.ElectronicsTest"/>
+          
+        </classes>
+    </test>
+
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="travel.FlightTest"/>
+            
+        </classes>
+    </test>
+
+</suite>

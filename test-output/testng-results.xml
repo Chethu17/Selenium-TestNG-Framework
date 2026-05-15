@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-06T18:58:16 IST" name="Flipkart Suite" finished-at="2026-05-06T18:59:35 IST" duration-ms="79076">
+    <groups>
+      <group name="regression">
+        <method signature="ElectronicsTest.switchWindow()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="switchWindow" class="flipkart.ElectronicsTest"/>
+        <method signature="ElectronicsTest.closeBrowserTab()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="closeBrowserTab" class="flipkart.ElectronicsTest"/>
+        <method signature="ElectronicsTest.searchAgain()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="searchAgain" class="flipkart.ElectronicsTest"/>
+        <method signature="ElectronicsTest.waitExample()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="waitExample" class="flipkart.ElectronicsTest"/>
+        <method signature="FashionTest.explicitWaitExample()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="explicitWaitExample" class="flipkart.FashionTest"/>
+        <method signature="FashionTest.searchItem()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="searchItem" class="flipkart.FashionTest"/>
+        <method signature="FashionTest.switchTab()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="switchTab" class="flipkart.FashionTest"/>
+        <method signature="ElectronicsTest.scrollDown()[pri:1, instance:flipkart.ElectronicsTest@6d763516]" name="scrollDown" class="flipkart.ElectronicsTest"/>
+        <method signature="FashionTest.DscrollPage()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="DscrollPage" class="flipkart.FashionTest"/>
+        <method signature="FlightTest.selectDate(java.lang.String,java.lang.String)[pri:0, instance:travel.FlightTest@73a1e9a9]" name="selectDate" class="travel.FlightTest"/>
+        <method signature="FlightTest.clickSearch()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="clickSearch" class="travel.FlightTest"/>
+        <method signature="FlightTest.waitFlights()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="waitFlights" class="travel.FlightTest"/>
+        <method signature="FlightTest.scrollFlights()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="scrollFlights" class="travel.FlightTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FashionTest.hoverMenu()[pri:-1, instance:flipkart.FashionTest@7ec7ffd3]" name="hoverMenu" class="flipkart.FashionTest"/>
+        <method signature="ElectronicsTest.searchLaptop()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="searchLaptop" class="flipkart.ElectronicsTest"/>
+        <method signature="ElectronicsTest.applyFilter()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="applyFilter" class="flipkart.ElectronicsTest"/>
+        <method signature="ElectronicsTest.openProduct()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" name="openProduct" class="flipkart.ElectronicsTest"/>
+        <method signature="FashionTest.searchFashion()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="searchFashion" class="flipkart.FashionTest"/>
+        <method signature="FashionTest.clickFirstProduct()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" name="clickFirstProduct" class="flipkart.FashionTest"/>
+        <method signature="FlightTest.searchFlight()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="searchFlight" class="travel.FlightTest"/>
+        <method signature="FlightTest.selectSource()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="selectSource" class="travel.FlightTest"/>
+        <method signature="FlightTest.selectDestination()[pri:0, instance:travel.FlightTest@73a1e9a9]" name="selectDestination" class="travel.FlightTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-06T18:58:16 IST" name="Smoke Tests" finished-at="2026-05-06T18:59:12 IST" duration-ms="55957">
+      <class name="flipkart.FashionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:16 IST" name="setup" finished-at="2026-05-06T18:58:26 IST" duration-ms="9769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hoverMenu()[pri:-1, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:27 IST" name="hoverMenu" finished-at="2026-05-06T18:58:27 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverMenu -->
+        <test-method signature="DscrollPage()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:28 IST" name="DscrollPage" finished-at="2026-05-06T18:58:29 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DscrollPage -->
+        <test-method signature="explicitWaitExample()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:29 IST" name="explicitWaitExample" finished-at="2026-05-06T18:58:29 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explicitWaitExample -->
+        <test-method signature="searchItem()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:29 IST" name="searchItem" finished-at="2026-05-06T18:58:31 IST" duration-ms="2670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="searchFashion()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:31 IST" name="searchFashion" finished-at="2026-05-06T18:58:36 IST" depends-on-methods="flipkart.FashionTest.searchItem" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFashion -->
+        <test-method signature="clickFirstProduct()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:36 IST" name="clickFirstProduct" finished-at="2026-05-06T18:58:36 IST" depends-on-methods="flipkart.FashionTest.searchFashion" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstProduct -->
+        <test-method signature="switchTab()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:36 IST" name="switchTab" finished-at="2026-05-06T18:58:37 IST" depends-on-methods="flipkart.FashionTest.clickFirstProduct" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:flipkart.FashionTest@7ec7ffd3]" started-at="2026-05-06T18:58:37 IST" name="tearDown" finished-at="2026-05-06T18:58:40 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- flipkart.FashionTest -->
+      <class name="flipkart.ElectronicsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:58:40 IST" name="setup" finished-at="2026-05-06T18:58:47 IST" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchLaptop()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:58:47 IST" name="searchLaptop" finished-at="2026-05-06T18:58:53 IST" duration-ms="6895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLaptop -->
+        <test-method signature="applyFilter()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:58:54 IST" name="applyFilter" finished-at="2026-05-06T18:58:58 IST" depends-on-methods="flipkart.ElectronicsTest.searchLaptop" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilter -->
+        <test-method signature="openProduct()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:58:58 IST" name="openProduct" finished-at="2026-05-06T18:59:01 IST" depends-on-methods="flipkart.ElectronicsTest.applyFilter" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProduct -->
+        <test-method signature="switchWindow()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:01 IST" name="switchWindow" finished-at="2026-05-06T18:59:07 IST" depends-on-methods="flipkart.ElectronicsTest.openProduct" duration-ms="5682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method signature="closeBrowserTab()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:07 IST" name="closeBrowserTab" finished-at="2026-05-06T18:59:07 IST" depends-on-methods="flipkart.ElectronicsTest.switchWindow" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserTab -->
+        <test-method signature="searchAgain()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:07 IST" name="searchAgain" finished-at="2026-05-06T18:59:09 IST" depends-on-methods="flipkart.ElectronicsTest.closeBrowserTab" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAgain -->
+        <test-method signature="waitExample()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:09 IST" name="waitExample" finished-at="2026-05-06T18:59:11 IST" depends-on-methods="flipkart.ElectronicsTest.searchAgain" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitExample -->
+        <test-method signature="scrollDown()[pri:1, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:11 IST" name="scrollDown" finished-at="2026-05-06T18:59:11 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:flipkart.ElectronicsTest@6d763516]" started-at="2026-05-06T18:59:11 IST" name="tearDown" finished-at="2026-05-06T18:59:12 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- flipkart.ElectronicsTest -->
+    </test> <!-- Smoke Tests -->
+    <test started-at="2026-05-06T18:59:12 IST" name="Regression Tests" finished-at="2026-05-06T18:59:35 IST" duration-ms="22898">
+      <class name="travel.FlightTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:12 IST" name="setup" finished-at="2026-05-06T18:59:21 IST" duration-ms="8762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchFlight()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:21 IST" name="searchFlight" finished-at="2026-05-06T18:59:26 IST" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method signature="selectSource()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:26 IST" name="selectSource" finished-at="2026-05-06T18:59:29 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSource -->
+        <test-method signature="selectDestination()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:29 IST" name="selectDestination" finished-at="2026-05-06T18:59:32 IST" depends-on-methods="travel.FlightTest.selectSource" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestination -->
+        <test-method signature="selectDate(java.lang.String,java.lang.String)[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:32 IST" name="selectDate" finished-at="2026-05-06T18:59:32 IST" depends-on-methods="travel.FlightTest.selectDestination" duration-ms="702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[July 2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method signature="clickSearch()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:32 IST" name="clickSearch" finished-at="2026-05-06T18:59:33 IST" depends-on-methods="travel.FlightTest.selectDate" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method signature="waitFlights()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:33 IST" name="waitFlights" finished-at="2026-05-06T18:59:35 IST" depends-on-methods="travel.FlightTest.clickSearch" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitFlights -->
+        <test-method signature="scrollFlights()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:35 IST" name="scrollFlights" finished-at="2026-05-06T18:59:35 IST" depends-on-methods="travel.FlightTest.waitFlights" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:travel.FlightTest@73a1e9a9]" started-at="2026-05-06T18:59:35 IST" name="tearDown" finished-at="2026-05-06T18:59:35 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- travel.FlightTest -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Flipkart Suite -->
+</testng-results>
